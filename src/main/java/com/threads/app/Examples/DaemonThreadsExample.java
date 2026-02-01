@@ -4,7 +4,7 @@ public class DaemonThreadsExample {
 
     public static void main(String[] args) {
         Thread daemonThread = new Thread(() -> {
-            for (int i = 0; i < 100000; i++) {
+            for (int i = 0; i < 1000000; i++) {
                 System.out.println("Daemon Thread Executed " + i +" times");
 
             }
